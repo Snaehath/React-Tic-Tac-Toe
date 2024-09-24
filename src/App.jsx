@@ -2,6 +2,7 @@ import { useState } from "react";
 import Player from "./components/player";
 import GameBoard from "./components/game-board";
 import Log from "./components/log";
+import { WINNING_COMBINATIONS } from "./components/winning-condition";
 
 const derivedActivePlayer = (gameTurns) => {
   let currentPlayer = "X";
